@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Listas</title>
+	<style type="text/css">
+	body{
+		background-color: #5AAEC6;
+	}
+	h1{
+		color: #FFFFFF; 
+		font-size: 48px;
+		text-align: center;
+		margin: 0px;
+	}
+	h2{
+		color: #F21B2D;
+		font-size: 30px;
+		padding: 0px;
+	}
+	main, nav {
+		margin: 10px auto;/*centra la caja automaticamente en horizontal*/
+	}
+	header,footer{
+		height: 60px;
+		padding: 20px;
+		text-align: center;
+		background-color: #F21B2D;
+		}
+	nav{
+		height: auto;
+		padding: 20px;
+		background-color: #F21B2D;
+		text-align: center;
+	
+		}
+	main{
+		height:auto;
+		padding: 20px;
+		}
+	section{
+		width: auto;
+		background-color: #CEF2F2;
+		margin: 20px 120px; 
+		padding: 20px;
+		border: ridge 4px #F21B2D;
+		align-content:center;
+		}
+	p{
+		padding: 0px;
+		color: #CEF2F2;
+		}
+	li, dt, dl {
+		color: #5A1220;
+	}
+	h5{
+		color: #FFFFFF;
+	}
+	ul li {
+		height: auto;
+		margin: 5px;
+		padding: 5px;
+		display: inline-block;
+		color: #FFFFFF;
+		font-weight: bolder;
+		text-align: center;
+		align-content: center;
+		align-items: center;
+	}
+	li{
+		text-decoration: underline;
+	}
+		a:link{
+	color: #FB5319;
+	font-weight: bolder;
+}
+a:visited{
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+a:hover {
+    color: #F6DC33;
+    font-weight: bolder;
+    font-size: large;
+}
+	</style>	
+</head>
+
+<body>
+	<header>
+		<h1> Listas de html</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="enlaces.html">Enlaces</a></li>
+			<li><a href="Imagenes.html">Imagenes</a></li>
+			<li><a href="Audio.html">Audio</a></li>
+			<li><a href="Video.html">Video</a></li>
+			<li><a href="animacion.html">Animación</a></li>
+			<li><a href="Flexbox.html">FlexBox</a></li>
+			<li><a href="Formularios.html">Formularios</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h2>Lista desordenada o con viñeta</h2> 
+			<ul>
+				<li>libreta profesional</li>
+				<li>Tijeras</li>
+				<li>Pegamento</li>
+				<li>Colores</li>
+				<li>100 Hojas blancas</li>
+				<li> Lapiz No.2 mirado</li>
+			</ul>
+		</section>
+	<section>
+		<h2>Lista ordenada o con viñeta ordenada</h2>
+		<ol>
+			<li>Victor Vargas</li>
+			<li>Jessica Mena</li>
+			<li>Steffany Gomez</li>
+			<li>Angela Olivares</li>
+			<li>Lisseth Ochoa</li>
+			<li>Sara Musalen </li>
+	 	 </ol>
+	</section>
+	<section>
+		<h2>Lista mixta</h2>
+		<ol>
+			<li>España</li>
+			<li>Argentina</li>
+			<li>Mexico
+				<ul>
+					<li>Puebla</li>
+					<li>Veracruz</li>
+					<li>Guadalajara</li>
+				</ul>
+			</li>
+			<li>Estados Unicos</li>
+			<li>Italia</li>
+				<ol>
+					<li>Roma</li>
+					<li>Florencia</li>
+					<li>Venecia</li>
+				</ol>
+			<li>Francia</li>
+		</ol>
+	</section>
+	<section>
+		<h2>Lista de descripcion</h2>
+		<dl>
+			<dt>Usabilidad</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi eum impedit voluptates, magni numquam, reprehenderit quibusdam. Consequatur dicta, dolor error tenetur magni asperiores. Unde a, quia assumenda! Eligendi, saepe, eveniet.
+		</dd>
+			<dt>Usabilidad</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi eum impedit voluptates, magni numquam, reprehenderit quibusdam. Consequatur dicta, dolor error tenetur magni asperiores. Unde a, quia assumenda! Eligendi, saepe, eveniet.
+		</dd>
+		</dl>
+	</section>
+	<section>
+	<h2>Lista con cambio de viñetas</h2>
+		<ol>
+			<li>Mamiferos
+				<ul style="list-style-type:disc">
+					<li>Vaca</li>
+					<li>Humanos</li>
+					<li>Perros</li>
+				</ul>
+			</li>
+			<li>Reptiles
+			<ul style="list-style-type: square">
+				<li>Lagartijas</li>
+				<li>Iguana</li>
+				<li>Serpientes</li>
+				<li>Camaleon</li>
+			</ul>
+			</li>
+			<li>Anfibios
+				<ul style="list-style-type: lower-roman">
+					<li>Rana</li>
+					<li>Salamandra</li>
+					<li>Cecilia</li>
+				</ul>
+			</li>
+			<li>Felinos</li>
+				<ul style="list-style-type:upper-roman">
+					<li>Leones</li>
+					<li>Pantera</li>
+					<li>Tigre</li>
+				</ul>
+			<li>Caninos
+				<ul style="list-style-image:url('../img/home-page.png');">
+					<li>Lorem</li>
+					<li>lorem ipsum</li>
+					<li>Lorem</li>
+				</ul>
+			</li>
+			<li>Vertebrados</li>
+		</ol>
+	</section>
+	</main>
+	<footer> 
+		<h5><b>Elaborado por: Lisseth Ochoa</b></h5>
+	</footer>
+	
+</body>
+</html>

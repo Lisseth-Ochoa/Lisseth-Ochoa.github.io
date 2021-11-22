@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Audio</title>
+<link href="../css/style_enlaces.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!--((heade>h1)+(nav>ul>(li*5))+(main>section>(h1+p))+(footer>h5))-->
+<header>
+		<h1>Audio en html5</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><strong><a href="mi_primera_pagina.html">Mi primera pagina</a></strong></li>
+			<li><strong><a href="tablas.html">Tablas</a></strong></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="enlaces.html">Enlances</a></li>
+			<li><a href="Imagenes.html">Imagenes</a></li>
+			<li><a href="Audio.html">Audio</a></li>
+			<li><a href="Video.html">Video</a></li>
+			<li><a href="animacion.html">Animacion</a></li>
+			<li><a href="Flexbox.html">Flex Box</a></li>
+			<li><a href="Formularios.html">Formularios</a></li>
+			<li></li>
+		</ul>
+	</nav>
+<main>
+		<section>
+			<h1>Insercion de audio simple</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime at voluptate sapiente. Sequi laboriosam tempore officiis, voluptatibus reiciendis corrupti aliquam, earum facilis eius, quaerat beatae architecto. Excepturi unde quae, magnam.</p>
+		  <audio controls>
+				<source src="../medios/audio/Zoé - Labios Rotos.mp3" type="audio/mp3">
+				<source src="" type="audio/ogg">
+				<source src="" type="audio/wav">
+				Your browser does not support the audio element.
+		  </audio>
+		</section>
+  		<section>
+			<h1>Inserción de audio sin sonido o muted</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem incidunt fugiat, laborum sunt minima iure placeat rem totam iste inventore.</p>
+			<audio controls muted autoplay>
+				<source src="../medios/audio/Zoé - Labios Rotos.mp3">
+				Your browser does not support the audio element.
+			</audio>
+		</section>
+		<section>
+		  <h1>Inserción de audio reproducción ciclica</h1>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem incidunt fugiat, laborum sunt minima iure placeat rem totam iste inventore.</p>
+          <audio controls="controls" muted="muted" autoplay="autoplay" loop="loop" >
+            <source src="../medios/audio/Zoé - Labios Rotos.mp3" type="audio/mp3">
+            Your browser does not support the audio element. </audio>
+ 		 </section>
+		<section>
+			<h1>Insercion de audio de repositorio:&nbsp;.ivoox </h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex aspernatur deleniti aut sed alias aliquid quibusdam, quidem? Temporibus, excepturi, distinctio.</p>
+			<iframe src="https://mx.ivoox.com/es/player_es_podcast_958_1.html" width="50%" style="border: 1px solid #D7D7D7;" height="440" frameborder="0" allowfullscreen="0" scrolling="no" ></iframe>
+		</section>
+  <section>
+		  <h1>Insercion de audio de repositorio:Souncloud</h1>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex aspernatur deleniti aut sed alias aliquid quibusdam, quidem? Temporibus, excepturi, distinctio.</p>
+		 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/50386958&color=%23ffffff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/es" title="Call me eS" target="_blank" style="color: #cccccc; text-decoration: none;">Call me eS</a> · <a href="https://soundcloud.com/es/short-circuit" title="Short Circuit" target="_blank" style="color: #cccccc; text-decoration: none;">Short Circuit</a></div>
+  </section>
+  <section>
+	<h1>Insercion de audio desde dream</h1>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, labore nulla cupiditate ducimus dolor error quas aliquid! Tempora esse, accusamus?</p>
+      <audio controls="controls" muted="muted" autoplay="autoplay" >
+        <source src="../medios/audio/Zoé - Labios Rotos.mp3" type="audio/mp3">
+      </audio>
+	</section>
+  </main>
+	<footer>
+	  <h5>Elaborado por Lisseth Ochoa</h5>
+	</footer>
+</body>
+</html>

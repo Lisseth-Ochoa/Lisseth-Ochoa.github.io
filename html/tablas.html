@@ -1,0 +1,328 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tablas</title>
+	<style type="text/css">
+		*{
+			margin: 10px;
+			padding: 5px;
+		}
+		h1{
+			color: #F21B2D;
+			font-size: 48px;
+		}
+		h2{
+			color: #F21B2D;
+			font-size: 30px;	
+		}
+		body{
+			background-color: #5AAEC6;
+		}
+		header{
+			padding: 20px;
+			text-align: center;
+		}
+		nav{ 
+			padding: 20px;
+			color: #ffffff;
+			background-color: #F21B2D;
+			font-weight: bolder;
+			text-align: center;
+		}
+		ul li {
+			height: auto;
+			margin: 5px;
+			padding: 5px;
+			display: inline-block;
+			color: #FFFFFF;
+			text-align: center;
+			align-content: center;
+			align-items: center;
+		}
+		li{
+			text-decoration: underline;
+		}
+		tr{
+			color: #5AAEC6;
+		}
+		header,footer,main,nav{
+			width: 1024px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		section{
+			background-color: #CEF2F2;
+			margin: 30px;
+			padding: :30px;
+			color: #151723;
+			border:double 6px #5A1220;
+			align-items: center;
+			align-content: center;
+			text-align: center;
+			}
+		footer{
+			width: 1024px;
+			height: 20px;
+			background-color: #F21B2D;
+			text-align: center;
+			padding: 20px;
+			color: #FFFFFF;
+			}
+		table{
+			border-collapse: collapse;
+			}
+		th,td{
+			padding: 10px;
+		} 
+		section, table, thead, tboody, tbody{
+			align-content: center;
+			align-items: center;
+			align-content: center;
+		}
+		#t01{ 
+			border: double 4px #5A1220;
+		}
+		#t01 th{
+			background-color:#F21B2D;
+		}
+		#t01 td{
+			background-color: #FFFFFF;
+		}
+		#t02 th, #t02 td{
+			padding: 15px;
+			text-align: left;
+		}
+		#t02 th{
+			background-color: #F21B2D;
+		}
+		#t02 tr:nth-child(even){
+			background-color: #5A1220;
+		}
+		.tabla th{
+			background-color:#5A1220;
+		}
+		.tabla td{
+			align-content: center;
+			align-items: center;
+			align-content: center;
+		}
+		#tablaaux tr:hover{
+			background-color: #F21B2D;
+		}
+		a:link{
+	color: #FB5319;
+	font-weight: bolder;
+}
+a:visited{
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+a:hover {
+    color: #F6DC33;
+    font-weight: bolder;
+    font-size: large;
+}
+		
+	</style>
+</head>
+<body>
+	<header>
+		<h1>TABLAS EN HTML</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="enlaces.html">Enlaces</a></li>
+			<li><a href="Imagenes.html">Imagenes</a></li>
+			<li><a href="Audio.html">Audio</a></li>
+			<li><a href="Video.html">Video</a></li>
+			<li><a href="animacion.html">Animación</a></li>
+			<li><a href="Flexbox.html">FlexBox</a></li>
+			<li><a href="Formularios.html">Formularios</a></li>
+		</ul>	 
+	</nav>
+	<main>
+		<section>
+		<table class="tabla" id="tablaaux" width="500" border="1">
+ 		 	<thead>
+			<tr>
+			  <th>Nombre</th>
+			  <th>Edad&nbsp;</th>
+			  <th>Género</th>
+			  <th>Deporte</th>
+			</tr>	
+			</thead>
+			<tbody>
+			<tr>
+			  <td>Maria Lopez</td>
+			  <td>15</td>
+			  <td>Femenino</td>
+			  <td>Futbol</td>
+			</tr>
+			<tr>
+			  <td>Jose Gabriel</td>
+			  <td>12</td>
+			  <td>Masculino&nbsp;</td>
+			  <td>Basquetboll</td>
+			</tr>
+			<tr>
+			  <td>Juan Becera</td>
+			  <td>11</td>
+			  <td>Masculino</td>
+			  <td>Beisbol</td>
+			</tr>
+  		</tbody>
+		<tfoot>
+		</tfoot>
+		</table>
+		</section>
+		<section>
+			<h2>Tabla simple</h2>	
+			<table class="tabla" border="1">
+				<thead>
+					<tr>
+						<th>NOMBRE</th>
+						<th>DIRECCIÓN</th>
+						<th>TELEFONO</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Daniel Vazquez</td>
+						<td>daniel.vazquez@gmail.com</td>
+						<td>2563978940</td>
+					</tr>
+					<tr>
+						<td>María Guadalupe Sanchez</td>
+						<td>dany.vazquez@gmail.com</td>
+						<td>2112587964</td>
+					</tr>
+					<tr>
+						<td>Juan Esquivel</td>
+						<td>juan.esquivel@gmail.com</td>
+						<td>2549687609</td>
+					</tr>
+					<tr>
+						<td>Lisseth Ochoa</td>
+						<td>lissethochoag@gmail.com</td>
+						<td>05302552052</td>
+					</tr>
+					<tr>
+						<td>Rodolfo Hernandez</td>
+						<td>rodolfo.hermandez@gmail.com</td>
+						<td>2231313548</td>
+					</tr>
+				</tbody>
+				<tfoot></tfoot>
+			</table>
+</section>
+		<section>
+			<h2>Tabla con celda que abarca dos columnas</h2>
+			<table class="tabla" border="1">
+				<thead>
+					<tr>
+						<th>NOMBRE</th>
+						<th colspan="2">TELEFONO</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Georgina Lopez</td>
+						<td>222 234 1234</td>
+						<td>123 145 4569</td>
+					</tr>
+					<tr>
+						<td>Hector Cortes</td>
+						<td>222 456 7895</td>
+						<td>123 456 7891</td>
+					</tr>
+					<tr>
+						<td>Mercedes Villa</td>
+						<td>578 012 7821</td>
+						<td>228 731 6980</td>
+					</tr>
+				
+				</tbody>
+				<tfoot></tfoot>
+			</table>
+			
+		</section>
+		<section>
+		<table width="600" border="1" id="t01">
+		<thead>
+			 <tr>
+     			 <th scope="col">NOMBRE</th>
+     			 <th scope="col">APELLIDOS</th>
+     			 <th scope="col">EDAD</th>
+   			 </tr>
+		</thead>
+  <tbody>
+    <tr>
+      <td>Maria</td>
+      <td>Flores Jimenez</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Jose Manuel</td>
+      <td>Gomez Perez</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Graciela</td>
+      <td>Fernandez Juarez</td>
+      <td>14</td>
+    </tr>
+  </tbody>
+</table>
+	  </section>
+	  <section>
+	    <table class="tabla" id="t02" border="1">
+	      <thead>
+	        <tr>
+	          <th>NOMBRE</th>
+	          <th>DIRECCIÓN</th>
+	          <th>TELEFONO</th>
+            </tr>
+          </thead>
+	      <tbody>
+	        <tr>
+	          <td>Daniel Vazquez</td>
+	          <td>daniel.vazquez@gmail.com</td>
+	          <td>2563978940</td>
+            </tr>
+	        <tr>
+	          <td>María Guadalupe Sanchez</td>
+	          <td>dany.vazquez@gmail.com</td>
+	          <td>2112587964</td>
+            </tr>
+	        <tr>
+	          <td>Juan Esquivel</td>
+	          <td>juan.esquivel@gmail.com</td>
+	          <td>2549687609</td>
+            </tr>
+	        <tr>
+	          <td>Lisseth Ochoa</td>
+	          <td>lissethochoag@gmail.com</td>
+	          <td>05302552052</td>
+            </tr>
+	        <tr>
+	          <td>Rodolfo Hernandez</td>
+	          <td>rodolfo.hermandez@gmail.com</td>
+	          <td>2231313548</td>
+            </tr>
+          </tbody>
+	      <tfoot>
+          </tfoot>
+        </table>
+			
+		
+		</section>
+</main>
+	<footer>
+		<h5>Elaborado por: LISSETH OCHOA GONZÁLEZ</h5>
+	</footer>
+</body>
+</html>
